@@ -60,7 +60,7 @@ class _CardPaymentPageState extends State<CardPaymentPage> {
       extendBodyBehindAppBar: true,
       backgroundColor: Colors.transparent,
 
-      /// 💎 UNIFIED APP BAR
+      ///  UNIFIED APP BAR
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -154,7 +154,7 @@ class _CardPaymentPageState extends State<CardPaymentPage> {
 
                   const SizedBox(height: 25),
 
-                  /// 💎 UNIFIED BUTTON
+                  ///  BUTTON
                   AppButton(
                     text: "CONFIRM PAYMENT",
                     backgroundColor: AppColors.gold,

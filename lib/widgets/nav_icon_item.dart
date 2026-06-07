@@ -66,7 +66,7 @@ class NavIconItem extends StatelessWidget {
                 ),
               ),
 
-              // 🔥 badge
+              //  badge
               if (count > 0 && isCart)
                 Positioned(
                   right: -6,

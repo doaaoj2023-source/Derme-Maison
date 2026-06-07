@@ -17,7 +17,7 @@ class HomePill extends StatelessWidget {
 
     final Color bgColor = isActive ? activeColor : inactiveColor;
 
-    /// 🔥 inversion logic
+    ///  inversion logic
     final Color iconColor =
         isActive ? Colors.white : const Color(0xFFC6A77D);
 

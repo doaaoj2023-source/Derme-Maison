@@ -23,7 +23,7 @@ class ProductImageSection extends StatelessWidget {
 
         width: double.infinity,
 
-        // ✅ ارتفاع الصورة
+        // ارتفاع الصورة
         height: size.height * 0.70,
 
         child: Transform.scale(
@@ -38,7 +38,7 @@ class ProductImageSection extends StatelessWidget {
 
             fit: BoxFit.cover,
 
-            // ✅ يمنع توقف التطبيق لو الصورة مش موجودة
+            // يمنع توقف التطبيق لو الصورة مش موجودة
             errorBuilder:
                 (context, error, stackTrace) {
 

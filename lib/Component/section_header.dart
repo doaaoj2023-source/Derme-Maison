@@ -52,7 +52,7 @@ class SectionHeader extends StatelessWidget {
           ),
         ),
 
-        /// SUBTITLE (اختياري)
+        /// SUBTITLE 
         if (subtitle != null) ...[
           const SizedBox(height: 6),
           Text(

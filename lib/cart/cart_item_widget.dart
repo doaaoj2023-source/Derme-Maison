@@ -36,7 +36,7 @@ class CartItemWidget extends StatelessWidget {
         child: Stack(
           children: [
 
-            /// 🌟 GLASS BACKGROUND (UNCHANGED)
+            
             ClipRRect(
               borderRadius: BorderRadius.circular(30),
               child: BackdropFilter(
@@ -86,7 +86,7 @@ class CartItemWidget extends StatelessWidget {
 
                 const SizedBox(width: 14),
 
-                /// 🟡 IMAGE (UPDATED — BIGGER + MORE PREMIUM FEEL)
+                ///  IMAGE 
                 Container(
                   width: 92,
                   height: 92,
@@ -117,7 +117,7 @@ class CartItemWidget extends StatelessWidget {
 
                 const SizedBox(width: 14),
 
-                /// 📦 CONTENT
+                ///  CONTENT
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(vertical: 12),

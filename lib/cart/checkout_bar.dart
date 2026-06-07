@@ -16,7 +16,7 @@ class CheckoutBar extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(26),
 
-        /// 🌟 GLASS LUXURY EFFECT
+       
         gradient: LinearGradient(
           colors: [
             Colors.white.withOpacity(0.75),
@@ -43,7 +43,7 @@ class CheckoutBar extends StatelessWidget {
       child: Row(
         children: [
 
-          /// 💰 TOTAL
+          ///  TOTAL
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
@@ -71,7 +71,7 @@ class CheckoutBar extends StatelessWidget {
 
           const Spacer(),
 
-          /// 🚀 PREMIUM CHECKOUT BUTTON (WITH ICON)
+          /// PREMIUM CHECKOUT BUTTON (WITH ICON)
           GestureDetector(
             onTap: () {
               final user = FirebaseAuth.instance.currentUser;
@@ -116,7 +116,7 @@ class CheckoutBar extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: const [
 
-                  /// 💳 ICON (payment vibe)
+                  ///  ICON (payment vibe)
                   Icon(
                     Icons.credit_card_rounded,
                     color: Colors.white,

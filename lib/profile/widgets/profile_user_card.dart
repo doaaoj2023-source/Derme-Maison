@@ -8,7 +8,7 @@ class ProfileUserCard extends StatelessWidget {
   final User user;
   final String role;
 
-  // ✅ ADD THESE (حل المشكلة)
+  
   final VoidCallback? onAdminTap;
   final VoidCallback? onSettingsTap;
   final VoidCallback? onDashboardTap;

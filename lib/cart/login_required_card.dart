@@ -62,7 +62,7 @@ class LoginRequiredCard extends StatelessWidget {
 
                 const SizedBox(height: 22),
 
-                /// 🔥 UNIFIED BUTTON
+                ///  BUTTON
                 AppButton(
                   text: "Continue",
                   icon: const Icon(

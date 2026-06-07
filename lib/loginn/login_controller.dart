@@ -39,7 +39,7 @@ class AuthController {
   }
 
   // ============================
-  // 🔥 NEW: GOOGLE SIGN-IN (ADDED ONLY)
+ 
   // ============================
   Future<UserCredential> signInWithGoogle() async {
     final GoogleSignIn googleSignIn = GoogleSignIn();
@@ -62,7 +62,7 @@ class AuthController {
     final userCredential =
         await FirebaseAuth.instance.signInWithCredential(credential);
 
-    // نحفظ المستخدم في Firestore (اختياري لكن مهم)
+    // نحفظ المستخدم في 
     await FirebaseFirestore.instance
         .collection('users')
         .doc(userCredential.user!.uid)

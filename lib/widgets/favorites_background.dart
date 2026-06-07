@@ -14,7 +14,7 @@ class FavoritesBackground extends StatelessWidget {
     return Stack(
       children: [
 
-        /// 🌈 MAIN GRADIENT BACKGROUND (from AppColors)
+        ///  (from AppColors)
         Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -30,7 +30,7 @@ class FavoritesBackground extends StatelessWidget {
           ),
         ),
 
-        /// ✨ TOP ORB
+        ///  TOP ORB
         Positioned(
           top: -120,
           left: -80,
@@ -44,7 +44,7 @@ class FavoritesBackground extends StatelessWidget {
           ),
         ),
 
-        /// ✨ BOTTOM ORB
+        ///  BOTTOM ORB
         Positioned(
           bottom: -140,
           right: -90,

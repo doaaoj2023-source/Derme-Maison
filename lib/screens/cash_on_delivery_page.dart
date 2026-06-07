@@ -34,10 +34,10 @@ class _CashOnDeliveryPageState extends State<CashOnDeliveryPage> {
         backgroundColor: Colors.transparent,
         elevation: 0,
 
-        /// 💎 unified back button color
+        ///  unified back button color
         iconTheme: IconThemeData(color: AppColors.gold),
 
-        /// 💎 unified title style
+        ///  unified title style
         title: Text(
           "CASH ON DELIVERY",
           style: TextStyle(
@@ -54,7 +54,7 @@ class _CashOnDeliveryPageState extends State<CashOnDeliveryPage> {
           children: [
             const SizedBox(height: 20),
 
-            /// 💎 unified title color
+            ///  unified title color
             Text(
               "Enter delivery details",
               style: TextStyle(
@@ -72,7 +72,7 @@ class _CashOnDeliveryPageState extends State<CashOnDeliveryPage> {
 
             const Spacer(),
 
-            /// 💎 unified button
+            ///  unified button
             AppButton(
               text: "CONFIRM ORDER",
               backgroundColor: AppColors.gold,
@@ -92,7 +92,7 @@ class _CashOnDeliveryPageState extends State<CashOnDeliveryPage> {
     );
   }
 
-  /// 💎 reusable input
+  ///  reusable input
   Widget _field(TextEditingController controller, String hint) {
     return TextField(
       controller: controller,

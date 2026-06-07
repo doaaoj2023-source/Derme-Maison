@@ -64,7 +64,7 @@ class ShopAppBar extends StatelessWidget implements PreferredSizeWidget {
         filter: ImageFilter.blur(sigmaX: 18, sigmaY: 18),
 
         child: AppBar(
-          // ⭐ أهم تعديل: شفافية كاملة
+        
           backgroundColor: Colors.transparent,
           elevation: 0,
           scrolledUnderElevation: 0,
@@ -72,7 +72,7 @@ class ShopAppBar extends StatelessWidget implements PreferredSizeWidget {
           centerTitle: true,
           automaticallyImplyLeading: false,
 
-          // ❌ نحينا اللون السادة اللي كان يغطي الخلفية
+          // نحينا اللون السادة اللي كان يغطي الخلفية
           // shape خليه خفيف أو احذفه (أنا خففته)
           shape: const Border(
             bottom: BorderSide(

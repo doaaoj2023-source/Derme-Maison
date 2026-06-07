@@ -113,7 +113,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
 
                     const SizedBox(height: 40),
 
-                    /// 💎 BUTTON (UNIFIED)
+                    ///  BUTTON (UNIFIED)
                     AppButton(
                       text: index == pages.length - 1
                           ? "ENTER STORE"

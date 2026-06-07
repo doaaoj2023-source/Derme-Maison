@@ -26,12 +26,12 @@ class FavoriteItemWidget extends StatelessWidget {
 
       child: Container(
         margin: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-        height: 190, // 🔥 أكبر شوية عشان المحتوى
+        height: 190, //  أكبر شوية عشان المحتوى
 
         child: Stack(
           children: [
 
-            /// 🖼 FULL IMAGE BACKGROUND (HERO STYLE)
+            /// (HERO STYLE)
             ClipRRect(
               borderRadius: BorderRadius.circular(26),
               child: Stack(
@@ -63,7 +63,7 @@ class FavoriteItemWidget extends StatelessWidget {
               ),
             ),
 
-            /// 🌟 BORDER EFFECT
+            ///  BORDER EFFECT
             Positioned.fill(
               child: Container(
                 decoration: BoxDecoration(
@@ -75,7 +75,7 @@ class FavoriteItemWidget extends StatelessWidget {
               ),
             ),
 
-            /// 📦 CONTENT (NAME + PRICE + DESCRIPTION)
+            ///  CONTENT (NAME + PRICE + DESCRIPTION)
             Positioned(
               left: 16,
               right: 16,
@@ -119,7 +119,7 @@ class FavoriteItemWidget extends StatelessWidget {
                   Row(
                     children: [
 
-                      /// PRICE (ONLY CHANGE HERE ✅)
+                      /// PRICE 
                       Container(
                         padding: const EdgeInsets.symmetric(
                           horizontal: 12,

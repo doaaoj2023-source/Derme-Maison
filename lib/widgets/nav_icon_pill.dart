@@ -62,7 +62,7 @@ class NavIconsPill extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(45),
 
-                /// ✨ Soft Elegant Glass (lighter)
+                ///  Soft Elegant Glass (lighter)
                 gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,

@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
           child: HomeCategories(),
         ),
 
-        /// 💥 IMPORTANT FIX HERE
+        ///  IMPORTANT FIX HERE
         SliverToBoxAdapter(
           child: HomeProducts(),
         ),

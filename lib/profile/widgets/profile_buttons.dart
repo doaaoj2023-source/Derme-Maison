@@ -89,7 +89,7 @@ class ProfileButtons extends StatelessWidget {
     );
   }
 
-  /// 🎨 BUTTON DESIGN (UNCHANGED)
+  ///  BUTTON DESIGN (UNCHANGED)
   Widget _btn(
     BuildContext context,
     IconData icon,

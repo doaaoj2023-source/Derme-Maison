@@ -90,7 +90,7 @@ class _PaypalPaymentPageState
 
             const Spacer(),
 
-            /// 🔵 PayPal BUTTON (instead of gold)
+            ///  PayPal BUTTON 
             AppButton(
               text: "CONTINUE",
               backgroundColor: AppColors.paypalBlue,

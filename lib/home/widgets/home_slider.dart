@@ -121,7 +121,7 @@ class _HomeSliderState extends State<HomeSlider>
           child: Stack(
             children: [
 
-              /// 🎥 VIDEO
+              ///  VIDEO
               PageView.builder(
                 controller: _pageController,
                 physics: const NeverScrollableScrollPhysics(),
@@ -150,7 +150,7 @@ class _HomeSliderState extends State<HomeSlider>
                 },
               ),
 
-              /// ✨ BIG GLASS GRADIENT (MAIN LAYER — IMPORTANT)
+              ///  BIG GLASS GRADIENT (MAIN LAYER — IMPORTANT)
               Positioned(
                 left: 0,
                 right: 0,
@@ -171,7 +171,7 @@ class _HomeSliderState extends State<HomeSlider>
                 ),
               ),
 
-              /// ✨ TEXT (داخل التدرج مش فوقه)
+              ///  TEXT (داخل التدرج مش فوقه)
               Positioned(
                 left: 22,
                 right: 22,
@@ -185,7 +185,7 @@ class _HomeSliderState extends State<HomeSlider>
                 ),
               ),
 
-              /// ⚪ INDICATORS
+              ///  INDICATORS
               Positioned(
                 bottom: 18,
                 left: 0,
@@ -218,7 +218,7 @@ class _HomeSliderState extends State<HomeSlider>
   }
 }
 
-/// 💎 CAPTION (خفيف + داخل الجو مش فوقه)
+///  CAPTION (خفيف + داخل الجو مش فوقه)
 class _Caption extends StatelessWidget {
   final int index;
 

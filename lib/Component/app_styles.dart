@@ -5,7 +5,7 @@ class AppStyles {
   AppStyles._();
 
   // =========================
-  // 🟫 CARD STYLE (glass)
+  //  CARD 
   // =========================
   static BoxDecoration card = BoxDecoration(
     borderRadius: BorderRadius.circular(26),
@@ -21,7 +21,7 @@ class AppStyles {
   );
 
   // =========================
-  // 🌫 GLASS BACKGROUND CARD (lighter)
+  //   CARD 
   // =========================
   static BoxDecoration glassCard = BoxDecoration(
     borderRadius: BorderRadius.circular(30),
@@ -58,7 +58,7 @@ class AppStyles {
   );
 
   // =========================
-  // ⚪ ICON CIRCLE (gold soft)
+  //  ICON CIRCLE 
   // =========================
   static BoxDecoration iconCircle = BoxDecoration(
     shape: BoxShape.circle,
@@ -66,7 +66,7 @@ class AppStyles {
   );
 
   // =========================
-  // ➕ SMALL CIRCLE BUTTON (add/remove)
+  //  (add/remove)
   // =========================
   static BoxDecoration circleButton = BoxDecoration(
     shape: BoxShape.circle,
@@ -84,7 +84,7 @@ class AppStyles {
   );
 
   // =========================
-  // 🟥 DELETE BUTTON STYLE
+  //  DELETE BUTTON
   // =========================
   static BoxDecoration deleteButton = BoxDecoration(
     shape: BoxShape.circle,
@@ -92,7 +92,7 @@ class AppStyles {
   );
 
   // =========================
-  // 📦 PRICE TAG / BADGE
+  // PRICE 
   // =========================
   static BoxDecoration priceBadge = BoxDecoration(
     color: AppColors.gold.withOpacity(0.10),
@@ -100,7 +100,7 @@ class AppStyles {
   );
 
   // =========================
-  // 🌟 ACCENT STRIP (cart item)
+  //   (cart item)
   // =========================
   static BoxDecoration accentStrip = const BoxDecoration(
     gradient: LinearGradient(
